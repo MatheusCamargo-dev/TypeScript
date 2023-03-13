@@ -25,3 +25,5 @@ const body4 = document.querySelector('body') as unknown as number;
 console.log(body4 * 2);
 
 //*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+export default null;
