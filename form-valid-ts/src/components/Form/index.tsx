@@ -1,3 +1,4 @@
+import { FormEvent } from "react";
 import isEmail from "validator/lib/isEmail";
 
 type Input = HTMLInputElement;
@@ -50,9 +51,9 @@ const checkForValidFields = (username: Input, email: Input, password: Input, rep
 
   return error;
 }
-const handleSubmit = (e: any):void => {
+const handleSubmit = (e: FormEvent):void => {
   e.preventDefault()
-  const form = e.target;
+  const form = e.target as HTMLFormElement;
   const username = document.querySelector('#username') as HTMLInputElement;
   const email = document.querySelector('#email') as HTMLInputElement;
   const password = document.querySelector('#password') as HTMLInputElement;
