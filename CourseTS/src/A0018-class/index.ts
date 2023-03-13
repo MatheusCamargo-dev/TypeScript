@@ -1,4 +1,4 @@
-class Company {
+export class Company {
   public readonly name: string;
   private readonly collaborators: Colaborator[] = [];
   protected readonly cnpj: string;
