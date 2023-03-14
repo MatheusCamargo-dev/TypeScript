@@ -22,5 +22,3 @@ export class Person {
 const person = Person.createPerson('Sanji', 'Vinsmoke');
 console.log(person)
 person.defaultValues()
-
-
